@@ -48,7 +48,7 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 20px 40px;
+  padding: 30px 60px;
 }
 
 .benefit_content {
@@ -71,13 +71,28 @@ h2 {
 }
 
 .search_container {
-  display: flex;
-  justify-content: center;
   background-color: rgb(148, 113, 92, 0.5);
-  padding: 20px;
+  padding: 20px 80px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 input {
-  padding: 10px 40px;
+  padding: 10px 30px;
   border-radius: 30px;
+  font-family: "Jost", serif;
+  flex: 5;
+}
+
+.btnSearch {
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-family: "Jost", serif;
+  background: transparent;
+  margin-left: 10px;
+  flex: 1;
 }
