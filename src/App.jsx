@@ -49,7 +49,7 @@ function App() {
       <div className='search_container'>
         <form onSubmit={finalSearch}>
           <input onChange={myRecipeSearch} value={userSearch} placeholder='Type your ingridients..'/>
-          <button className='btnSearch'>SEARCH</button>
+          <button className='btnSearch' onClick={finalSearch}>SEARCH</button>
         </form>
       </div>
 
