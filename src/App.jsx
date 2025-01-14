@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       <div className='header'>
-          <video autoPlay muted loop>
+          <video autoPlay muted loop playsInline controls>
             <source src={myVideo} type='video/mp4'/>
           </video>
 
